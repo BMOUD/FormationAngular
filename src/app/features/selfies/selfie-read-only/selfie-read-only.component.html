@@ -1,0 +1,29 @@
+<article class="row mb-3 shadow">
+    <header class="col">
+        <div class="row">
+            <div class="col-9">
+                <h2>{{selfie.titre}}</h2>
+            </div>
+            <div class="col text-end">
+                [..]
+            </div>
+        </div>
+    </header>
+    <div class="w-100"></div>
+    <div class="col pb-2">
+        <img [src]= "selfie.image" class="img-fluid">
+    </div>
+    <div class="w-100"></div>
+    <div class="col footer pb-2">
+        <div class="d-flex">
+            <div class="mr-2">
+                <a type="button" class="btn" data-toggle="modal" data-target="#exempleModal">
+                    <i class="fa fa-heart"></i>
+                </a>
+            </div>
+            <div class="">
+                <i class="fa fa-heart"></i>
+            </div>
+        </div>
+    </div>
+</article>

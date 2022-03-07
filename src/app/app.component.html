@@ -1,0 +1,11 @@
+
+<app-menu-general (launchSearch)="rechercherSelfie($event)"></app-menu-general>
+<h1>{{title}}</h1>
+
+<main class="container">
+  <div class="row">
+    <div class="col-sm-9">
+      <app-selfie-list [filtre]="searchValue"></app-selfie-list>
+    </div>
+  </div>
+</main>
